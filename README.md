@@ -13,7 +13,7 @@ Linear search (also called *sequential* search) is an algorithm for finding a pa
 Source: [Practical Programming](http://pragprog.com/book/gwpy/practical-programming)
 
 #### Note: 
-For the Javascript portion of this challenge, you will need to install this npm package to get the global linear search tests to run correctly: [Shallow-equal](https://www.npmjs.com/package/shallow-equal)
+For the Javascript portion of this challenge, you will need to install this npm package to get the global linear search tests to run correctly: [Shallow-equal](https://www.npmjs.com/package/shallow-equal). To install this package, run the command `npm install` from the same folder as `package.json`.
 
 
 ## Releases
