@@ -1,0 +1,23 @@
+{
+  "name": "algo-linear-search",
+  "version": "1.0.0",
+  "description": "## Summary",
+  "main": "index.js",
+  "dependencies": {
+    "shallow-equal": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeplatoon-fullstack/algo-linear-search.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeplatoon-fullstack/algo-linear-search/issues"
+  },
+  "homepage": "https://github.com/codeplatoon-fullstack/algo-linear-search#readme"
+}
