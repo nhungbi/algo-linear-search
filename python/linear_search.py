@@ -8,6 +8,8 @@ def linear_search(value_to_find, array_to_search_through):
         if elt == value_to_find:
             return index
         index +=1
+    
+    return None #elt not in list
 
 def global_linear_seach (value_to_find, array_to_search_through):
     output = []
@@ -17,6 +19,6 @@ def global_linear_seach (value_to_find, array_to_search_through):
             output.append(index)
         index +=1
     
-    return output
+    return None if not output else output
 
 # print(global_linear_seach('a',list('bananas')))

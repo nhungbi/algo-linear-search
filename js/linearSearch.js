@@ -7,12 +7,11 @@ exports.linearSearch = function(valueToFind, arrayToSearchThrough) {
     let index = 0
     for (let elt of arrayToSearchThrough) {
         if (elt === valueToFind) {
-            return index
-        }
-        index ++
-    }
+            return index}
+        index ++}
 
-};
+    return undefined
+    };
 
 exports.linearSearchGlobal = function (valueToFind, arrayToSearchThrough) {
     let index = 0
@@ -23,7 +22,10 @@ exports.linearSearchGlobal = function (valueToFind, arrayToSearchThrough) {
         }
         index ++
     }
-    return output
+    if (output) { //not empty
+        return output
+    }
+    return undefined
 }
 
 
